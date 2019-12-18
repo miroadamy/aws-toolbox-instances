@@ -1,0 +1,3 @@
+
+bucket  = "eiac-144153993531-us-east-1-bootstrap"
+key     = "default-terraform.tfstate"    
