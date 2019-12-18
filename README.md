@@ -128,7 +128,6 @@ Note that the bootstrap is using LOCAL STATE. This is by design.
 
 For separation of the accounts and regions, we use workspaces:
 
-.. code::
 
     $ terraform workspace list
       default
@@ -145,8 +144,6 @@ Backend initialization
 
 We need to use the generated backend config in ``terraform init``
 
-
-.. code::
 
     $ terraform init -backend-config=docker.tfbackend
 
@@ -169,8 +166,6 @@ Environment creation
 --------------------
 
 After this, we can do ``plan`` and ``apply``
-
-.. code::
 
     $ terraform plan
     Acquiring state lock. This may take a few moments...
@@ -309,8 +304,6 @@ After this, we can do ``plan`` and ``apply``
     Releasing state lock. This may take a few moments...
 
 Apply
-
-.. code::
 
     $ terraform apply
     Acquiring state lock. This may take a few moments...
